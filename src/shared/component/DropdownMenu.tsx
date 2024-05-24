@@ -15,7 +15,6 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
   const [deleteRoadmap] = useDeleteRoadMapMutation();
   const [deleteRoadmapDetails] = useDeleteRoadmapDetailsMutation();
   const [deleteInternBatch] = useDeleteBatchListMutation();
-  console.log(id, tabValue);
 
   // manage confirm box
   const [open, setOpen] = useState<boolean>(false);
