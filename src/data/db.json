@@ -1,1234 +1,1264 @@
 {
-    "roadmap": [
-      {
-        "name": "Advanced Javascript",
-        "domain": "Backend",
-        "totalDays": 3,
-        "id": "1"
-      },
-      {
-        "name": "Beginner HTML",
-        "domain": "Frontend",
-        "totalDays": 4,
-        "id": "5c39"
-      },
-      {
-        "name": "Database Concepts",
-        "domain": "Data",
-        "totalDays": 4,
-        "id": "da7d"
-      },
-      {
-        "name": "New Database",
-        "domain": "QA",
-        "totalDays": 3,
-        "id": "8756"
-      },
-      {
-        "id": "aeea",
-        "name": "Advanced HTML",
-        "domain": "Frontend",
-        "totalDays": 5
-      },
-      {
-        "id": "9ed8",
-        "name": "CSS concepts",
-        "domain": "Frontend",
-        "totalDays": 4
-      },
-      {
-        "name": "Business Analyst",
-        "domain": "Bussiness Analyst",
-        "totalDays": 4,
-        "id": "a6d3"
-      },
-      {
-        "id": "937d",
-        "name": "ES6 Concepts",
-        "domain": "Backend",
-        "totalDays": 4
-      }
-    ],
-    "roadmapDetails": [
-      {
-        "roadmapId": "5c39",
-        "day": "Day 01",
-        "topics": [
-          {
-            "id": "duiuvmb",
-            "topicName": "HTML Fundamental",
-            "subtopic": "Introduction, HTML Document, The Head Element,The Body Element, ID and Class Attributes, Comments, Coding conventions",
-            "duration": "30m"
-          },
-          {
-            "id": "pewvxqvm",
-            "topicName": "Text Elements",
-            "subtopic": "Headings, Block vs Inline Elements, Text Breaking and white space, Additional Text Element, Best Practice",
-            "duration": "30m"
-          },
-          {
-            "id": "nthvgdqav",
-            "topicName": "List Elements",
-            "subtopic": "List Types, Creating Lists, Best Practice",
-            "duration": "30m"
-          }
-        ],
-        "id": "ce06"
-      },
-      {
-        "id": "6787",
-        "roadmapId": "5c39",
-        "day": "Day 02",
-        "topics": [
-          {
-            "id": "wilpmpmggnc",
-            "topicName": "Images Element",
-            "subtopic": "Image Types, Include Images in document, Best Practice",
-            "duration": "30m"
-          }
-        ]
-      },
-      {
-        "roadmapId": "da7d",
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "klnxrlqbp",
-            "topicName": "Open source databases",
-            "subtopic": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
-            "duration": "15m"
-          },
-          {
-            "id": "jrkkwcqwmns",
-            "topicName": "Relational",
-            "subtopic": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
-            "duration": "1hr"
-          }
-        ],
-        "id": "26d0"
-      },
-      {
-        "roadmapId": "5c39",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "rsozdijg",
-            "topicName": "Dummy Topic",
-            "subtopic": "Dummy topic added here for testing",
-            "duration": "30m"
-          }
-        ],
-        "id": "cbda"
-      },
-      {
-        "roadmapId": "8756",
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "xkcnbkbr",
-            "topicName": "My Topic 1.1",
-            "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "15m"
-          },
-          {
-            "id": "ehqbbkqng",
-            "topicName": "My Topic 1.2",
-            "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "30m"
-          },
-          {
-            "id": "wfhgnk",
-            "topicName": "My Topic 1.3",
-            "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "15m"
-          }
-        ],
-        "id": "7180"
-      },
-      {
-        "roadmapId": "da7d",
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "mzmcqy",
-            "topicName": "NoSQL",
-            "subtopic": "Lorem Ipsum Dummy text added here for testing testing testing",
-            "duration": "1hr"
-          }
-        ],
-        "id": "37cd"
-      },
-      {
-        "roadmapId": "da7d",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "ykmeysvp",
-            "topicName": "Centralization database",
-            "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "15m"
-          },
-          {
-            "id": "cpnitbhkx",
-            "topicName": "Cloud",
-            "subtopic": "Lorem ipsum dolor sit, adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "30m"
-          }
-        ],
-        "id": "2a12"
-      },
-      {
-        "roadmapId": "aeea",
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "vgrbttfjxo",
-            "topicName": "Advance topic1",
-            "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-            "duration": "30m"
-          }
-        ],
-        "id": "6330"
-      },
-      {
-        "roadmapId": "aeea",
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "tuepokheg",
-            "topicName": "Advance topic 2.1",
-            "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "15m"
-          },
-          {
-            "id": "yoaymebyn",
-            "topicName": "Advance topic 2.2",
-            "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "1hr"
-          }
-        ],
-        "id": "cd85"
-      },
-      {
-        "roadmapId": "8756",
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "jxvmldbxk",
-            "topicName": "My Topic 2",
-            "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "30m"
-          }
-        ],
-        "id": "fb49"
-      },
-      {
-        "id": "5296"
-      },
-      {
-        "id": "2d49"
-      },
-      {
-        "roadmapId": "1",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "tlmgqlcl",
-            "topicName": "Error Handling",
-            "subtopic": "Ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "30m"
-          },
-          {
-            "id": "ikregwlkg",
-            "topicName": "Destructuring",
-            "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "1hr"
-          }
-        ],
-        "id": "b5f9"
-      },
-      {
-        "roadmapId": "9ed8",
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "lxljjx",
-            "topicName": "Selectors",
-            "subtopic": "CSS selectors are patterns used to select the elements you want to style.",
-            "duration": "30m"
-          }
-        ],
-        "id": "784d"
-      },
-      {
-        "roadmapId": "9ed8",
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "jjkdckc",
-            "topicName": "Properties and Values",
-            "subtopic": "CSS properties define the visual appearance of an element, and values specify how those properties should be applied",
-            "duration": "30m"
-          },
-          {
-            "id": "mgopdmsv",
-            "topicName": "Box Model",
-            "subtopic": "The CSS box model describes the layout and sizing of elements in a web page.",
-            "duration": "30m"
-          }
-        ],
-        "id": "b07c"
-      },
-      {
-        "id": "88e7",
-        "roadmapId": "937d",
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "tzyketg",
-            "topicName": "JavaScript let",
-            "subtopic": "The let keyword allows you to declare a variable with block scope.",
-            "duration": "15m"
-          },
-          {
-            "id": "fvkmpra",
-            "topicName": "JavaScript const",
-            "subtopic": "The const keyword allows you to declare a constant (a JavaScript variable with a constant value).",
-            "duration": "15m"
-          }
-        ]
-      },
-      {
-        "id": "04ac",
-        "roadmapId": "937d",
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "nsiyis",
-            "topicName": "Loops",
-            "subtopic": "The For/Of Loop, Looping over an Array. Do while Loop",
-            "duration": "1hr"
-          }
-        ]
-      },
-      {
-        "id": "02b2",
-        "roadmapId": "937d",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "xnpzipoq",
-            "topicName": "JavaScript Promises",
-            "subtopic": "\"Producing Code\" can take some time and \"Consuming Code\" must wait for the result.",
-            "duration": "30m"
-          }
-        ]
-      },
-      {
-        "id": "31ed",
-        "roadmapId": "937d",
-        "day": "Day 4",
-        "topics": [
-          {
-            "id": "zjdtiri",
-            "topicName": "String",
-            "subtopic": "String.includes(), String.startsWith(),String.endsWith()",
-            "duration": "30m"
-          },
-          {
-            "id": "udrommymxn",
-            "topicName": "Arrays",
-            "subtopic": "Array.from(), Array keys(), Array find(), Array findIndex(), ",
-            "duration": "30m"
-          }
-        ]
-      },
-      {
-        "id": "7b33",
-        "roadmapId": "9ed8",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "brjjwluja",
-            "topicName": "Flexbox",
-            "subtopic": "Flexbox is a layout model used for creating flexible and responsive layouts.",
-            "duration": "1hr"
-          }
-        ]
-      },
-      {
-        "id": "4b56",
-        "roadmapId": "9ed8",
-        "day": "Day 4",
-        "topics": [
-          {
-            "id": "numyjbpthb",
-            "topicName": "Media Queries",
-            "subtopic": " Media queries allow you to apply different styles based on the characteristics of the device or browser, such as screen size, resolution, or orientation",
-            "duration": "1hr"
-          }
-        ]
-      },
-      {
-        "id": "508e",
-        "roadmapId": "a6d3",
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "jevnfwussp",
-            "topicName": "Requirements Gathering and Analysis",
-            "subtopic": "Understanding stakeholder needs, eliciting requirements, and analyzing them to ensure alignment with business goals.",
-            "duration": "30m"
-          },
-          {
-            "id": "vpkkzabf",
-            "topicName": "Business Process Modeling",
-            "subtopic": "Creating visual representations of business processes to identify inefficiencies and areas for improvement.",
-            "duration": "30m"
-          }
-        ]
-      },
-      {
-        "id": "1ce3",
-        "roadmapId": "a6d3",
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "erezazxc",
-            "topicName": "Data Analysis and Visualization",
-            "subtopic": "Analyzing business data to identify trends, patterns, and insights that can inform decision-making. Utilizing tools for data visualization to communicate findings effectively.",
-            "duration": "1hr"
-          }
-        ]
-      },
-      {
-        "id": "a7fe",
-        "roadmapId": "a6d3",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "lafkzwee",
-            "topicName": "Business Strategy and Planning",
-            "subtopic": "Developing and aligning business strategies with organizational objectives, market trends, and competitive landscapes.",
-            "duration": "30m"
-          },
-          {
-            "id": "cxzngfnkcs",
-            "topicName": "Risk Analysis and Management",
-            "subtopic": " Identifying potential risks to project success or business operations and developing strategies to mitigate them.",
-            "duration": "15m"
-          }
-        ]
-      },
-      {
-        "id": "1d5d",
-        "roadmapId": "9ed8",
-        "day": "Day 5",
-        "topics": [
-          {
-            "id": "yucxnusxt",
-            "topicName": "New",
-            "subtopic": "demo",
-            "duration": "15m"
-          }
-        ]
-      },
-      {
-        "id": "af8e",
-        "roadmapId": "a6d3",
-        "day": "Day 4",
-        "topics": [
-          {
-            "id": "feglrxn",
-            "topicName": "new",
-            "subtopic": "cvfb",
-            "duration": "15m"
-          }
-        ]
-      },
-      {
-        "id": "7cdb",
-        "roadmapId": "1",
-        "day": "Day 4",
-        "topics": [
-          {
-            "id": "pyjfsgcl",
-            "topicName": "dfghrth",
-            "subtopic": "grtg",
-            "duration": "15m"
-          }
-        ]
-      },
-      {
-        "id": "8546",
-        "roadmapId": null,
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "wqynoatl",
-            "topicName": "abc",
-            "subtopic": "fwfwfw",
-            "duration": "15m"
-          }
-        ]
-      },
-     
-      {
-        "id": "e283",
-        "roadmapId": "aeea",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "ikzqkfqejf",
-            "topicName": "1",
-            "subtopic": "dscx",
-            "duration": "15m"
-          }
-        ]
-      },
-      {
-        "id": "3e6e",
-        "roadmapId": "aeea",
-        "day": "Day 4",
-        "topics": [
-          {
-            "id": "tpjzhm",
-            "topicName": "",
-            "subtopic": "",
-            "duration": ""
-          }
-        ]
-      },
-      
-      {
-        "roadmapId": null,
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "riet",
-            "topicName": "11111",
-            "subtopic": "ffffffffffffffff",
-            "duration": "30m"
-          },
-          {
-            "id": "jvijvjzc",
-            "topicName": "22222",
-            "subtopic": "csdc",
-            "duration": "15m"
-          }
-        ],
-        "id": "eba5"
-      },
-      {
-        "roadmapId": "abae",
-        "day": "Day 1",
-        "topics": [
-          {
-            "id": "lmoogkwgm",
-            "topicName": "11",
-            "subtopic": "erfer",
-            "duration": "15m"
-          },
-          {
-            "id": "tyjlaryz",
-            "topicName": "22.22",
-            "subtopic": "ref",
-            "duration": "30m"
-          },
-          {
-            "id": "ngdzwlx",
-            "topicName": "33",
-            "subtopic": "",
-            "duration": ""
-          }
-        ],
-        "id": "997d"
-      },
-      {
-        "id": "3857",
-        "roadmapId": "abae",
-        "day": "Day 2",
-        "topics": [
-          {
-            "id": "onapyt",
-            "topicName": "gh",
-            "subtopic": "ytu",
-            "duration": "15m"
-          }
-        ]
-      },
-      {
-        "id": "7dc8",
-        "roadmapId": "1",
-        "day": "Day 3",
-        "topics": [
-          {
-            "id": "fgfjica",
-            "topicName": "2",
-            "subtopic": "vdsv",
-            "duration": "30m"
-          }
-        ]
-      }
-    ],
-    "batchIntern": [
-      {
-        "batchId": "4",
-        "firstName": "bhavik",
-        "lastName": "gajdhar",
-        "email": "b@gmail.com",
-        "contact": "1236547890",
-        "mentor": "Bhavik Gajdhar",
-        "domain": "Frontend",
-        "id": "4"
-      },
-      {
-        "batchId": "4",
-        "firstName": "revant",
-        "lastName": "patel",
-        "email": "r@gmail.com",
-        "contact": "1236547890",
-        "mentor": "Bhavik Gajdhar",
-        "domain": "Frontend",
-        "id": "5"
-      },
-      {
-        "batchId": "3",
-        "firstName": "nehal",
-        "lastName": "patel",
-        "email": "n@gmail.com",
-        "contact": "7894561230",
-        "mentor": "Jinal Tandel",
-        "domain": "Frontend",
-        "id": "6"
-      },
-      {
-        "batchId": "2",
-        "firstName": "vinay",
-        "lastName": "patel",
-        "email": "v@gmail.com",
-        "contact": "1236547890",
-        "mentor": "Nikunj Patel",
-        "domain": "Backend",
-        "id": "OrssiWU"
-      },
-      {
-        "batchId": "3",
-        "firstName": "Kevang",
-        "lastName": "Patel",
-        "email": "k@gmail.com",
-        "contact": "4563210789",
-        "mentor": "Bhavik Gajdhar",
-        "domain": "Frontend",
-        "id": "iFnhwTx"
-      },
-      {
-        "batchId": "1",
-        "firstName": "vishwani",
-        "lastName": "patel",
-        "email": "v@gmail.com",
-        "contact": "1236547890",
-        "mentor": "null",
-        "domain": "Backend",
-        "id": "IU_ewuw"
-      },
-      {
-        "batchId": "3",
-        "firstName": "Rohan",
-        "lastName": "patel",
-        "email": "r@gmail.com",
-        "contact": "4563210789",
-        "mentor": "Ravi Sing",
-        "domain": "Data",
-        "id": "o1uueeS"
-      },
-      {
-        "batchId": "1",
-        "firstName": "Herry",
-        "lastName": "Patel",
-        "email": "h@gmail.com",
-        "contact": "1236547890",
-        "mentor": "Bhavik Gajdhar",
-        "domain": "Frontend",
-        "id": "9ZPG-ju"
-      },
-      {
-        "batchId": "1",
-        "firstName": "Bhakti",
-        "lastName": "Patel",
-        "email": "bhakti.patel@gmail.com",
-        "contact": "9876543210",
-        "mentor": "Jinal Tandel",
-        "domain": "Frontend",
-        "id": "7WnshkL"
-      },
-      {
-        "id": "66c1",
-        "batchId": "1",
-        "firstName": "Raj",
-        "lastName": "patel",
-        "email": "user2@mailinator.com",
-        "contact": "9874215632",
-        "mentor": "Mahesh Prasad",
-        "domain": "Bussiness Analyst"
-      },
-      {
-        "id": "62ca",
-        "batchId": "1",
-        "firstName": "Raj",
-        "lastName": "patel",
-        "email": "user2@mailinator.com",
-        "contact": "9875412563",
-        "mentor": "Jinal Tandel",
-        "domain": "Frontend"
-      },
-      {
-        "id": "a804",
-        "batchId": "1",
-        "firstName": "mahesh",
-        "lastName": "patel",
-        "email": "vinayvhc38@gmail.com",
-        "contact": "8745965213",
-        "mentor": "Vinay Chudasama",
-        "domain": "Frontend"
-      },
-      {
-        "id": "7486",
-        "batchId": "1",
-        "firstName": "Bhavik",
-        "lastName": "Shah",
-        "email": "bhavik12@gmail.com",
-        "contact": "9874563257",
-        "mentor": "Vishwani Patel",
-        "domain": "Frontend"
-      },
-      {
-        "id": "a8a6",
-        "batchId": "4",
-        "firstName": "Soni",
-        "lastName": "Patel",
-        "email": "sonipatel@gmail.com",
-        "contact": "9876543210",
-        "mentor": "undefined undefined",
-        "domain": "Backend"
-      },
-      {
-        "id": "2be2",
-        "batchId": "1",
-        "firstName": "mahesh",
-        "lastName": "patel",
-        "email": "vinayvhc38@gmail.com",
-        "contact": "9685741256",
-        "mentor": "",
-        "domain": "Backend"
-      },
-      {
-        "id": "0c3d",
-        "batchId": "1",
-        "firstName": "new",
-        "lastName": "demo",
-        "email": "user2@mailinator.com",
-        "contact": "9874859658",
-        "mentor": "",
-        "domain": "Bussiness Analyst"
-      }
-    ],
-    "internshipBatch": [
-      {
-        "batchname": "Jan-2025",
-        "startdate": "2024-01-31T18:30:00.000Z",
-        "enddate": "2024-02-28T18:30:00.000Z",
-        "status": "In Progress",
-        "id": "1"
-      },
-      {
-        "batchname": "March-2024",
-        "startdate": "2024-02-29T18:30:00.000Z",
-        "enddate": "2024-03-28T18:30:00.000Z",
-        "status": "Completed",
-        "id": "2"
-      },
-      {
-        "batchname": "April-2024",
-        "startdate": "2024-03-31T18:30:00.000Z",
-        "enddate": "2024-04-29T18:30:00.000Z",
-        "status": "In Progress",
-        "id": "3"
-      },
-      {
-        "batchname": "May-2024",
-        "startdate": "2024-04-30T18:30:00.000Z",
-        "enddate": "2024-06-06T18:30:00.000Z",
-        "status": "In Progress",
-        "id": "g2EiTEV"
-      }
-    ],
-    "batchMentor": [
-      {
-        "batchId": "4",
-        "domain": "Frontend",
-        "mentor": "Bhavik Gajdhar",
-        "domainOwner": false,
-        "email": "bhavikgajdhar@1rivet.com",
-        "id": "4d66",
-        "phone": "9876543210",
-        "designation": "Associate L1"
-      },
-      {
-        "batchId": "4",
-        "domain": "Frontend",
-        "mentor": "Vishwani Patel",
-        "domainOwner": false,
-        "email": "vishwani@1rivet.com",
-        "id": "4077",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "id": "d279",
-        "batchId": "1",
-        "domain": "Backend",
-        "mentor": "Nikunj Patel",
-        "domainOwner": false,
-        "email": "nikunjpatel@1rivet.com",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "batchId": "1",
-        "domain": "Backend",
-        "mentor": "Amresh Prasad",
-        "domainOwner": "true",
-        "email": "amresh@1rivet.com",
-        "id": "3edb",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "id": "500f",
-        "batchId": "1",
-        "domain": "Backend",
-        "mentor": "Nidhi Shah",
-        "domainOwner": false,
-        "email": "nidhi@1rivet.com",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "id": "8cfd",
-        "batchId": "1",
-        "domain": "Frontend",
-        "mentor": "Jinal Tandel",
-        "domainOwner": false,
-        "email": "jinaltandel@1rivet.com",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "id": "0ece",
-        "batchId": "1",
-        "domain": "Frontend",
-        "mentor": "Ravi Sing",
-        "domainOwner": false,
-        "email": "ravising@1rivet.com",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "id": "2a4c",
-        "batchId": "2",
-        "domain": "Frontend",
-        "mentor": "Vinay Chudasama",
-        "domainOwner": false,
-        "email": "vinaychudasama@1rivet.com",
-        "phone": "9876543210",
-        "designation": "Associate L1"
-      },
-      {
-        "id": "0d31",
-        "batchId": "2",
-        "domain": "Backend",
-        "mentor": "Nikunj Patel",
-        "domainOwner": false,
-        "email": "nikunjpatel@1rivet.com",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "batchId": "1",
-        "domain": "Frontend",
-        "mentor": "Vinay Chudasama",
-        "domainOwner": "true",
-        "email": "vinaychudasama@1rivet.com",
-        "id": "Q2VNITP",
-        "phone": "9876543210",
-        "designation": "Associate L1"
-      },
-      {
-        "id": "33c5",
-        "batchId": "1",
-        "domain": "Bussiness Analyst",
-        "mentor": "Mahesh Prasad",
-        "domainOwner": "false",
-        "email": "mahesh.prasad@1rivet.com"
-      },
-      {
-        "batchId": "1",
-        "topic": "Beginner HTML",
-        "domain": "Frontend",
-        "duration": "30m",
-        "day": 1,
-        "mentor": "Ravi Sing",
-        "id": "1"
-      },
-      {
-        "batchId": "1",
-        "topic": "Advanced HTML",
-        "domain": "Frontend",
-        "duration": "15m",
-        "mentor": "Bhavik Gajdhar",
-        "id": "11d1"
-      },
-      {
-        "id": "6730",
-        "batchId": "1",
-        "topic": "Beginner HTML",
-        "domain": "Frontend",
-        "duration": "15m",
-        "day": 1,
-        "mentor": "Vinay Chudasama"
-      },
-      {
-        "id": "6756",
-        "batchId": "2",
-        "domain": "Frontend",
-        "mentor": "Bhavik Gajdhar",
-        "domainOwner": "false",
-        "email": "bhavikgajdhar@1rivet.com"
-      },
-      {
-        "id": "e169",
-        "batchId": "2",
-        "domain": "Bussiness Analyst",
-        "mentor": "Mahesh Prasad",
-        "domainOwner": "false",
-        "email": "mahesh.prasad@1rivet.com"
-      },
-      {
-        "id": "5bd7",
-        "batchId": "4",
-        "domain": "Backend",
-        "mentor": "undefined undefined",
-        "domainOwner": "false",
-        "email": "jinal.tandel@1rivet.com"
-      },
-      {
-        "id": "f470",
-        "batchId": "1",
-        "domain": "Bussiness Analyst",
-        "mentor": "Mahesh Prasad",
-        "domainOwner": "false",
-        "email": "mahesh.prasad@1rivet.com"
-      },
-      {
-        "id": "8d6e",
-        "batchId": "1",
-        "domain": "Mobile",
-        "mentor": "Nidhiii Shah",
-        "domainOwner": "false",
-        "email": "nidhi@1rivet.com"
-      }
-    ],
-    "batchRoadmap": [
-      {
-        "batchId": "1",
-        "topic": "Database Concepts",
-        "domain": "Data",
-        "mentor": "Ravi Sing",
-        "day": 4,
-        "roadmapId": "da7d",
-        "status": "",
-        "subTopics": [
-          {
-            "id": "1rlhzg",
-            "status": "Not Started",
-            "title": "Open source databases",
-            "subtopics": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
-            "duration": "15m",
-            "topicid": "klnxrlqbp",
-            "date": null,
-            "day": 1
-          },
-          {
-            "id": "6kv7pf",
-            "status": "Not Started",
-            "title": "Relational",
-            "subtopics": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
-            "duration": "1hr",
-            "topicid": "jrkkwcqwmns",
-            "date": null,
-            "day": 1
-          },
-          {
-            "id": "smnab3",
-            "status": "Not Started",
-            "title": "NoSQL",
-            "subtopics": "Lorem Ipsum Dummy text added here for testing testing testing",
-            "duration": "1hr",
-            "topicid": "mzmcqy",
-            "date": null,
-            "day": 2
-          },
-          {
-            "id": "1zxhiy",
-            "status": "Not Started",
-            "title": "Centralization database",
-            "subtopics": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "15m",
-            "topicid": "ykmeysvp",
-            "date": null,
-            "day": 3
-          },
-          {
-            "id": "wut06a",
-            "status": "Not Started",
-            "title": "Cloud",
-            "subtopics": "Lorem ipsum dolor sit, adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "30m",
-            "topicid": "cpnitbhkx",
-            "date": null,
-            "day": 3
-          }
-        ],
-        "id": "b219"
-      },
-      {
-        "batchId": "1",
-        "topic": "Advanced Javascript",
-        "domain": "Backend",
-        "mentor": "Yaseen  Agwan",
-        "day": 3,
-        "roadmapId": "1",
-        "status": "In Progress",
-        "subTopics": [
-          {
-            "id": "gvyuxf",
-            "status": "Completed",
-            "title": "Error Handling",
-            "subtopics": "Ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "30m",
-            "topicid": "tlmgqlcl",
-            "date": "2024-05-23T08:08:36.205Z",
-            "day": 3
-          },
-          {
-            "id": "0599py",
-            "status": "Completed",
-            "title": "Destructuring",
-            "subtopics": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
-            "duration": "1hr",
-            "topicid": "ikregwlkg",
-            "date": "2024-05-23T09:19:12.441Z",
-            "day": 3
-          },
-          {
-            "id": "ira1ve",
-            "status": "In Progress",
-            "title": "dfghrth",
-            "subtopics": "grtg",
-            "duration": "15m",
-            "topicid": "pyjfsgcl",
-            "date": "2024-05-23T09:18:45.475Z",
-            "day": 4
-          }
-        ],
-        "id": "2db4"
-      }
-    ],
-    "mentors": [
-      {
-        "id": "1",
-        "firstName": "Vinay",
-        "lastName": "Chudasama",
-        "email": "vinaychudasama@1rivet.com",
-        "domain": "Frontend",
-        "phone": "9876543210",
-        "designation": "Associate L1"
-      },
-      {
-        "id": "2",
-        "firstName": "Bhavik",
-        "lastName": "Gajdhar",
-        "email": "bhavikgajdhar@1rivet.com",
-        "domain": "Frontend",
-        "phone": "9876543210",
-        "designation": "Associate L1"
-      },
-      {
-        "id": "3",
-        "firstName": "Vishwani",
-        "lastName": "Patel",
-        "email": "vishwani@1rivet.com",
-        "domain": "Frontend",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "firstName": "Ravi",
-        "lastName": "Sing",
-        "email": "ravising@1rivet.com",
-        "domain": "Data",
-        "id": "9002",
-        "phone": "9876543210",
-        "designation": "Associate Trainee"
-      },
-      {
-        "firstName": "Nidhiii",
-        "lastname": "",
-        "email": "nidhi@1rivet.com",
-        "domain": "Mobile",
-        "phone": "9876543210",
-        "designation": "Associate Trainee",
-        "lastName": "Shah",
-        "id": "d25f"
-      },
-      {
-        "firstName": "Amresh",
-        "lastName": "Prasad",
-        "email": "amresh.prasad@1rivet.com",
-        "domain": "Mobile",
-        "phone": "9876543120",
-        "designation": "Associate L1",
-        "id": "4OXTzG4"
-      },
-      {
-        "firstName": "Mahesh",
-        "lastName": "Prasad",
-        "email": "mahesh.prasad@1rivet.com",
-        "domain": "Bussiness Analyst",
-        "phone": "9876543120",
-        "designation": "Associate L1",
-        "id": "4OXTyK9"
-      },
-      {
-        "id": "069f",
-        "firstName": "mahesh",
-        "lastName": "patel",
-        "emailId": "vinayvhc38@gmail.com",
-        "domain": "Bussiness Analyst",
-        "phone": "9923232459",
-        "designation": "Senior Associate L2"
-      },
-      {
-        "id": "4e93",
-        "firstName": "Yaseen ",
-        "lastName": "Agwan",
-        "emailId": "yaseen.agwan@gmail.com",
-        "domain": "Backend",
-        "phone": "8974561837",
-        "designation": "Associate L2"
-      },
-      {
-        "firstName": "Sharad",
-        "lastName": "Ahuja",
-        "emailId": "ahujasharad2@gmail.com",
-        "domain": "Backend",
-        "phone": "7485963871",
-        "designation": "Associate L1",
-        "id": "d0b8"
-      },
-      {
-        "id": "405f",
-        "firstName": "Twisha",
-        "lastName": "Shah",
-        "emailId": "shast@1rivet.com",
-        "domain": "Backend",
-        "phone": "8974569851",
-        "designation": "Associate Trainee"
-      },
-      {
-        "id": "9d17",
-        "firstName": "Zeel",
-        "lastName": "Panchal",
-        "emailId": "zeel.panchal@1rivet.com",
-        "domain": "Backend",
-        "phone": "9845896544",
-        "designation": "Associate Trainee"
-      },
-      {
-        "id": "0c0d",
-        "firstName": "Yasin",
-        "lastName": "Hirani",
-        "emailId": "yasin.hirani@1rivet.com",
-        "domain": "Data",
-        "phone": "9923232459",
-        "designation": "Associate L2"
-      },
-      {
-        "id": "e852"
-      },
-      {
-        "id": "cb73"
-      }
-    ],
-    "domain": [
-      {
-        "id": "1",
-        "name": "Frontend"
-      },
-      {
-        "id": "2",
-        "name": "Backend"
-      },
-      {
-        "id": "3",
-        "name": "Data"
-      },
-      {
-        "id": "4",
-        "name": "QA"
-      },
-      {
-        "id": "5",
-        "name": "Mobile"
-      },
-      {
-        "id": "6",
-        "name": "Human Resources"
-      },
-      {
-        "id": "7",
-        "name": "Bussiness Analyst"
-      }
-    ],
-    "designation": [
-      {
-        "id": "1",
-        "name": "Senior Manager"
-      },
-      {
-        "id": "2",
-        "name": "Manager"
-      },
-      {
-        "id": "3",
-        "name": "Senior Associate L2"
-      },
-      {
-        "id": "4",
-        "name": "Senior Associate L1"
-      },
-      {
-        "id": "5",
-        "name": "Associate L2"
-      },
-      {
-        "id": "6",
-        "name": "Associate L1"
-      },
-      {
-        "id": "7",
-        "name": "Associate Trainee"
-      }
-    ]
-  }
+  "roadmap": [
+    {
+      "name": "Advanced Javascript",
+      "domain": "Backend",
+      "totalDays": 3,
+      "id": "1"
+    },
+    {
+      "name": "Beginner HTML",
+      "domain": "Frontend",
+      "totalDays": 4,
+      "id": "5c39"
+    },
+    {
+      "name": "Database Concepts",
+      "domain": "Data",
+      "totalDays": 4,
+      "id": "da7d"
+    },
+    {
+      "name": "New Database",
+      "domain": "QA",
+      "totalDays": 3,
+      "id": "8756"
+    },
+    {
+      "id": "aeea",
+      "name": "Advanced HTML",
+      "domain": "Frontend",
+      "totalDays": 5
+    },
+    {
+      "id": "9ed8",
+      "name": "CSS concepts",
+      "domain": "Frontend",
+      "totalDays": 4
+    },
+    {
+      "name": "Business Analyst",
+      "domain": "Bussiness Analyst",
+      "totalDays": 4,
+      "id": "a6d3"
+    },
+    {
+      "id": "937d",
+      "name": "ES6 Concepts",
+      "domain": "Backend",
+      "totalDays": 4
+    },
+    {
+      "id": "980lux",
+      "name": "Demo ",
+      "domain": "Data",
+      "totalDays": 0
+    }
+  ],
+  "roadmapDetails": [
+    {
+      "roadmapId": "5c39",
+      "day": "Day 01",
+      "topics": [
+        {
+          "id": "duiuvmb",
+          "topicName": "HTML Fundamental",
+          "subtopic": "Introduction, HTML Document, The Head Element,The Body Element, ID and Class Attributes, Comments, Coding conventions",
+          "duration": "30m"
+        },
+        {
+          "id": "pewvxqvm",
+          "topicName": "Text Elements",
+          "subtopic": "Headings, Block vs Inline Elements, Text Breaking and white space, Additional Text Element, Best Practice",
+          "duration": "30m"
+        },
+        {
+          "id": "nthvgdqav",
+          "topicName": "List Elements",
+          "subtopic": "List Types, Creating Lists, Best Practice",
+          "duration": "30m"
+        }
+      ],
+      "id": "ce06"
+    },
+    {
+      "id": "6787",
+      "roadmapId": "5c39",
+      "day": "Day 02",
+      "topics": [
+        {
+          "id": "wilpmpmggnc",
+          "topicName": "Images Element",
+          "subtopic": "Image Types, Include Images in document, Best Practice",
+          "duration": "30m"
+        }
+      ]
+    },
+    {
+      "roadmapId": "da7d",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "klnxrlqbp",
+          "topicName": "Open source databases",
+          "subtopic": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
+          "duration": "15m"
+        },
+        {
+          "id": "jrkkwcqwmns",
+          "topicName": "Relational",
+          "subtopic": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
+          "duration": "1hr"
+        }
+      ],
+      "id": "26d0"
+    },
+    {
+      "roadmapId": "5c39",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "rsozdijg",
+          "topicName": "Dummy Topic",
+          "subtopic": "Dummy topic added here for testing",
+          "duration": "30m"
+        }
+      ],
+      "id": "cbda"
+    },
+    {
+      "roadmapId": "8756",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "xkcnbkbr",
+          "topicName": "My Topic 1.1",
+          "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "15m"
+        },
+        {
+          "id": "ehqbbkqng",
+          "topicName": "My Topic 1.2",
+          "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "30m"
+        },
+        {
+          "id": "wfhgnk",
+          "topicName": "My Topic 1.3",
+          "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "15m"
+        }
+      ],
+      "id": "7180"
+    },
+    {
+      "roadmapId": "da7d",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "mzmcqy",
+          "topicName": "NoSQL",
+          "subtopic": "Lorem Ipsum Dummy text added here for testing testing testing",
+          "duration": "1hr"
+        }
+      ],
+      "id": "37cd"
+    },
+    {
+      "roadmapId": "da7d",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "ykmeysvp",
+          "topicName": "Centralization database",
+          "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "15m"
+        },
+        {
+          "id": "cpnitbhkx",
+          "topicName": "Cloud",
+          "subtopic": "Lorem ipsum dolor sit, adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "30m"
+        }
+      ],
+      "id": "2a12"
+    },
+    {
+      "roadmapId": "aeea",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "vgrbttfjxo",
+          "topicName": "Advance topic1",
+          "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+          "duration": "30m"
+        }
+      ],
+      "id": "6330"
+    },
+    {
+      "roadmapId": "aeea",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "tuepokheg",
+          "topicName": "Advance topic 2.1",
+          "subtopic": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "15m"
+        },
+        {
+          "id": "yoaymebyn",
+          "topicName": "Advance topic 2.2",
+          "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "1hr"
+        }
+      ],
+      "id": "cd85"
+    },
+    {
+      "roadmapId": "8756",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "jxvmldbxk",
+          "topicName": "My Topic 2",
+          "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "30m"
+        }
+      ],
+      "id": "fb49"
+    },
+    {
+      "id": "5296"
+    },
+    {
+      "id": "2d49"
+    },
+    {
+      "roadmapId": "1",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "tlmgqlcl",
+          "topicName": "Error Handling",
+          "subtopic": "Ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "30m"
+        },
+        {
+          "id": "ikregwlkg",
+          "topicName": "Destructuring",
+          "subtopic": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "1hr"
+        }
+      ],
+      "id": "b5f9"
+    },
+    {
+      "roadmapId": "9ed8",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "lxljjx",
+          "topicName": "Selectors",
+          "subtopic": "CSS selectors are patterns used to select the elements you want to style.",
+          "duration": "30m"
+        }
+      ],
+      "id": "784d"
+    },
+    {
+      "roadmapId": "9ed8",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "jjkdckc",
+          "topicName": "Properties and Values",
+          "subtopic": "CSS properties define the visual appearance of an element, and values specify how those properties should be applied",
+          "duration": "30m"
+        },
+        {
+          "id": "mgopdmsv",
+          "topicName": "Box Model",
+          "subtopic": "The CSS box model describes the layout and sizing of elements in a web page.",
+          "duration": "30m"
+        }
+      ],
+      "id": "b07c"
+    },
+    {
+      "id": "88e7",
+      "roadmapId": "937d",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "tzyketg",
+          "topicName": "JavaScript let",
+          "subtopic": "The let keyword allows you to declare a variable with block scope.",
+          "duration": "15m"
+        },
+        {
+          "id": "fvkmpra",
+          "topicName": "JavaScript const",
+          "subtopic": "The const keyword allows you to declare a constant (a JavaScript variable with a constant value).",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "04ac",
+      "roadmapId": "937d",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "nsiyis",
+          "topicName": "Loops",
+          "subtopic": "The For/Of Loop, Looping over an Array. Do while Loop",
+          "duration": "1hr"
+        }
+      ]
+    },
+    {
+      "id": "02b2",
+      "roadmapId": "937d",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "xnpzipoq",
+          "topicName": "JavaScript Promises",
+          "subtopic": "\"Producing Code\" can take some time and \"Consuming Code\" must wait for the result.",
+          "duration": "30m"
+        }
+      ]
+    },
+    {
+      "id": "31ed",
+      "roadmapId": "937d",
+      "day": "Day 4",
+      "topics": [
+        {
+          "id": "zjdtiri",
+          "topicName": "String",
+          "subtopic": "String.includes(), String.startsWith(),String.endsWith()",
+          "duration": "30m"
+        },
+        {
+          "id": "udrommymxn",
+          "topicName": "Arrays",
+          "subtopic": "Array.from(), Array keys(), Array find(), Array findIndex(), ",
+          "duration": "30m"
+        }
+      ]
+    },
+    {
+      "id": "7b33",
+      "roadmapId": "9ed8",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "brjjwluja",
+          "topicName": "Flexbox",
+          "subtopic": "Flexbox is a layout model used for creating flexible and responsive layouts.",
+          "duration": "1hr"
+        }
+      ]
+    },
+    {
+      "id": "4b56",
+      "roadmapId": "9ed8",
+      "day": "Day 4",
+      "topics": [
+        {
+          "id": "numyjbpthb",
+          "topicName": "Media Queries",
+          "subtopic": " Media queries allow you to apply different styles based on the characteristics of the device or browser, such as screen size, resolution, or orientation",
+          "duration": "1hr"
+        }
+      ]
+    },
+    {
+      "id": "508e",
+      "roadmapId": "a6d3",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "jevnfwussp",
+          "topicName": "Requirements Gathering and Analysis",
+          "subtopic": "Understanding stakeholder needs, eliciting requirements, and analyzing them to ensure alignment with business goals.",
+          "duration": "30m"
+        },
+        {
+          "id": "vpkkzabf",
+          "topicName": "Business Process Modeling",
+          "subtopic": "Creating visual representations of business processes to identify inefficiencies and areas for improvement.",
+          "duration": "30m"
+        }
+      ]
+    },
+    {
+      "id": "1ce3",
+      "roadmapId": "a6d3",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "erezazxc",
+          "topicName": "Data Analysis and Visualization",
+          "subtopic": "Analyzing business data to identify trends, patterns, and insights that can inform decision-making. Utilizing tools for data visualization to communicate findings effectively.",
+          "duration": "1hr"
+        }
+      ]
+    },
+    {
+      "id": "a7fe",
+      "roadmapId": "a6d3",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "lafkzwee",
+          "topicName": "Business Strategy and Planning",
+          "subtopic": "Developing and aligning business strategies with organizational objectives, market trends, and competitive landscapes.",
+          "duration": "30m"
+        },
+        {
+          "id": "cxzngfnkcs",
+          "topicName": "Risk Analysis and Management",
+          "subtopic": " Identifying potential risks to project success or business operations and developing strategies to mitigate them.",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "1d5d",
+      "roadmapId": "9ed8",
+      "day": "Day 5",
+      "topics": [
+        {
+          "id": "yucxnusxt",
+          "topicName": "New",
+          "subtopic": "demo",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "af8e",
+      "roadmapId": "a6d3",
+      "day": "Day 4",
+      "topics": [
+        {
+          "id": "feglrxn",
+          "topicName": "new",
+          "subtopic": "cvfb",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "7cdb",
+      "roadmapId": "1",
+      "day": "Day 4",
+      "topics": [
+        {
+          "id": "pyjfsgcl",
+          "topicName": "dfghrth",
+          "subtopic": "grtg",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "8546",
+      "roadmapId": null,
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "wqynoatl",
+          "topicName": "abc",
+          "subtopic": "fwfwfw",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "e283",
+      "roadmapId": "aeea",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "ikzqkfqejf",
+          "topicName": "1",
+          "subtopic": "dscx",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "3e6e",
+      "roadmapId": "aeea",
+      "day": "Day 4",
+      "topics": [
+        {
+          "id": "tpjzhm",
+          "topicName": "",
+          "subtopic": "",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "roadmapId": null,
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "riet",
+          "topicName": "11111",
+          "subtopic": "ffffffffffffffff",
+          "duration": "30m"
+        },
+        {
+          "id": "jvijvjzc",
+          "topicName": "22222",
+          "subtopic": "csdc",
+          "duration": "15m"
+        }
+      ],
+      "id": "eba5"
+    },
+    {
+      "roadmapId": "abae",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "lmoogkwgm",
+          "topicName": "11",
+          "subtopic": "erfer",
+          "duration": "15m"
+        },
+        {
+          "id": "tyjlaryz",
+          "topicName": "22.22",
+          "subtopic": "ref",
+          "duration": "30m"
+        },
+        {
+          "id": "ngdzwlx",
+          "topicName": "33",
+          "subtopic": "",
+          "duration": ""
+        }
+      ],
+      "id": "997d"
+    },
+    {
+      "id": "3857",
+      "roadmapId": "abae",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "onapyt",
+          "topicName": "gh",
+          "subtopic": "ytu",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "7dc8",
+      "roadmapId": "1",
+      "day": "Day 3",
+      "topics": [
+        {
+          "id": "fgfjica",
+          "topicName": "2",
+          "subtopic": "vdsv",
+          "duration": "30m"
+        }
+      ]
+    },
+    {
+      "id": "0g2p1i",
+      "roadmapId": "aeea",
+      "day": "Day 5",
+      "topics": [
+        {
+          "id": "avlo66",
+          "topicName": "Test",
+          "subtopic": "Testing Add call",
+          "duration": "30m"
+        }
+      ]
+    },
+    {
+      "id": "d3358m",
+      "roadmapId": "980lux",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "77szq6",
+          "topicName": "eefe",
+          "subtopic": "gewwegweg",
+          "duration": "15m"
+        }
+      ]
+    }
+  ],
+  "batchIntern": [
+    {
+      "batchId": "4",
+      "firstName": "bhavik",
+      "lastName": "gajdhar",
+      "email": "b@gmail.com",
+      "contact": "1236547890",
+      "mentor": "Bhavik Gajdhar",
+      "domain": "Frontend",
+      "id": "4"
+    },
+    {
+      "batchId": "4",
+      "firstName": "revant",
+      "lastName": "patel",
+      "email": "r@gmail.com",
+      "contact": "1236547890",
+      "mentor": "Bhavik Gajdhar",
+      "domain": "Frontend",
+      "id": "5"
+    },
+    {
+      "batchId": "3",
+      "firstName": "nehal",
+      "lastName": "patel",
+      "email": "n@gmail.com",
+      "contact": "7894561230",
+      "mentor": "Jinal Tandel",
+      "domain": "Frontend",
+      "id": "6"
+    },
+    {
+      "batchId": "2",
+      "firstName": "vinay",
+      "lastName": "patel",
+      "email": "v@gmail.com",
+      "contact": "1236547890",
+      "mentor": "Nikunj Patel",
+      "domain": "Backend",
+      "id": "OrssiWU"
+    },
+    {
+      "batchId": "3",
+      "firstName": "Kevang",
+      "lastName": "Patel",
+      "email": "k@gmail.com",
+      "contact": "4563210789",
+      "mentor": "Bhavik Gajdhar",
+      "domain": "Frontend",
+      "id": "iFnhwTx"
+    },
+    {
+      "batchId": "1",
+      "firstName": "vishwani",
+      "lastName": "patel",
+      "email": "v@gmail.com",
+      "contact": "1236547890",
+      "mentor": "null",
+      "domain": "Backend",
+      "id": "IU_ewuw"
+    },
+    {
+      "batchId": "3",
+      "firstName": "Rohan",
+      "lastName": "patel",
+      "email": "r@gmail.com",
+      "contact": "4563210789",
+      "mentor": "Ravi Sing",
+      "domain": "Data",
+      "id": "o1uueeS"
+    },
+    {
+      "batchId": "1",
+      "firstName": "Herry",
+      "lastName": "Patel",
+      "email": "h@gmail.com",
+      "contact": "1236547890",
+      "mentor": "Bhavik Gajdhar",
+      "domain": "Frontend",
+      "id": "9ZPG-ju"
+    },
+    {
+      "batchId": "1",
+      "firstName": "Bhakti",
+      "lastName": "Patel",
+      "email": "bhakti.patel@gmail.com",
+      "contact": "9876543210",
+      "mentor": "Jinal Tandel",
+      "domain": "Frontend",
+      "id": "7WnshkL"
+    },
+    {
+      "id": "66c1",
+      "batchId": "1",
+      "firstName": "Raj",
+      "lastName": "patel",
+      "email": "user2@mailinator.com",
+      "contact": "9874215632",
+      "mentor": "Mahesh Prasad",
+      "domain": "Bussiness Analyst"
+    },
+    {
+      "id": "62ca",
+      "batchId": "1",
+      "firstName": "Raj",
+      "lastName": "patel",
+      "email": "user2@mailinator.com",
+      "contact": "9875412563",
+      "mentor": "Jinal Tandel",
+      "domain": "Frontend"
+    },
+    {
+      "id": "a804",
+      "batchId": "1",
+      "firstName": "mahesh",
+      "lastName": "patel",
+      "email": "vinayvhc38@gmail.com",
+      "contact": "8745965213",
+      "mentor": "Vinay Chudasama",
+      "domain": "Frontend"
+    },
+    {
+      "id": "7486",
+      "batchId": "1",
+      "firstName": "Bhavik",
+      "lastName": "Shah",
+      "email": "bhavik12@gmail.com",
+      "contact": "9874563257",
+      "mentor": "Vishwani Patel",
+      "domain": "Frontend"
+    },
+    {
+      "id": "a8a6",
+      "batchId": "4",
+      "firstName": "Soni",
+      "lastName": "Patel",
+      "email": "sonipatel@gmail.com",
+      "contact": "9876543210",
+      "mentor": "undefined undefined",
+      "domain": "Backend"
+    },
+    {
+      "id": "2be2",
+      "batchId": "1",
+      "firstName": "mahesh",
+      "lastName": "patel",
+      "email": "vinayvhc38@gmail.com",
+      "contact": "9685741256",
+      "mentor": "",
+      "domain": "Backend"
+    },
+    {
+      "id": "0c3d",
+      "batchId": "1",
+      "firstName": "new",
+      "lastName": "demo",
+      "email": "user2@mailinator.com",
+      "contact": "9874859658",
+      "mentor": "",
+      "domain": "Bussiness Analyst"
+    }
+  ],
+  "internshipBatch": [
+    {
+      "batchname": "Jan-2025",
+      "startdate": "2024-01-31T18:30:00.000Z",
+      "enddate": "2024-02-28T18:30:00.000Z",
+      "status": "In Progress",
+      "id": "1"
+    },
+    {
+      "batchname": "March-2024",
+      "startdate": "2024-02-29T18:30:00.000Z",
+      "enddate": "2024-03-28T18:30:00.000Z",
+      "status": "Completed",
+      "id": "2"
+    },
+    {
+      "batchname": "April-2024",
+      "startdate": "2024-03-31T18:30:00.000Z",
+      "enddate": "2024-04-29T18:30:00.000Z",
+      "status": "In Progress",
+      "id": "3"
+    },
+    {
+      "batchname": "May-2024",
+      "startdate": "2024-04-30T18:30:00.000Z",
+      "enddate": "2024-06-06T18:30:00.000Z",
+      "status": "In Progress",
+      "id": "g2EiTEV"
+    }
+  ],
+  "batchMentor": [
+    {
+      "batchId": "4",
+      "domain": "Frontend",
+      "mentor": "Bhavik Gajdhar",
+      "domainOwner": false,
+      "email": "bhavikgajdhar@1rivet.com",
+      "id": "4d66",
+      "phone": "9876543210",
+      "designation": "Associate L1"
+    },
+    {
+      "batchId": "4",
+      "domain": "Frontend",
+      "mentor": "Vishwani Patel",
+      "domainOwner": false,
+      "email": "vishwani@1rivet.com",
+      "id": "4077",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "id": "d279",
+      "batchId": "1",
+      "domain": "Backend",
+      "mentor": "Nikunj Patel",
+      "domainOwner": false,
+      "email": "nikunjpatel@1rivet.com",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "batchId": "1",
+      "domain": "Backend",
+      "mentor": "Amresh Prasad",
+      "domainOwner": "true",
+      "email": "amresh@1rivet.com",
+      "id": "3edb",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "id": "500f",
+      "batchId": "1",
+      "domain": "Backend",
+      "mentor": "Nidhi Shah",
+      "domainOwner": false,
+      "email": "nidhi@1rivet.com",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "id": "8cfd",
+      "batchId": "1",
+      "domain": "Frontend",
+      "mentor": "Jinal Tandel",
+      "domainOwner": false,
+      "email": "jinaltandel@1rivet.com",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "id": "0ece",
+      "batchId": "1",
+      "domain": "Frontend",
+      "mentor": "Ravi Sing",
+      "domainOwner": false,
+      "email": "ravising@1rivet.com",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "id": "2a4c",
+      "batchId": "2",
+      "domain": "Frontend",
+      "mentor": "Vinay Chudasama",
+      "domainOwner": false,
+      "email": "vinaychudasama@1rivet.com",
+      "phone": "9876543210",
+      "designation": "Associate L1"
+    },
+    {
+      "id": "0d31",
+      "batchId": "2",
+      "domain": "Backend",
+      "mentor": "Nikunj Patel",
+      "domainOwner": false,
+      "email": "nikunjpatel@1rivet.com",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "batchId": "1",
+      "domain": "Frontend",
+      "mentor": "Vinay Chudasama",
+      "domainOwner": "true",
+      "email": "vinaychudasama@1rivet.com",
+      "id": "Q2VNITP",
+      "phone": "9876543210",
+      "designation": "Associate L1"
+    },
+    {
+      "id": "33c5",
+      "batchId": "1",
+      "domain": "Bussiness Analyst",
+      "mentor": "Mahesh Prasad",
+      "domainOwner": "false",
+      "email": "mahesh.prasad@1rivet.com"
+    },
+    {
+      "batchId": "1",
+      "topic": "Beginner HTML",
+      "domain": "Frontend",
+      "duration": "30m",
+      "day": 1,
+      "mentor": "Ravi Sing",
+      "id": "1"
+    },
+    {
+      "batchId": "1",
+      "topic": "Advanced HTML",
+      "domain": "Frontend",
+      "duration": "15m",
+      "mentor": "Bhavik Gajdhar",
+      "id": "11d1"
+    },
+    {
+      "id": "6730",
+      "batchId": "1",
+      "topic": "Beginner HTML",
+      "domain": "Frontend",
+      "duration": "15m",
+      "day": 1,
+      "mentor": "Vinay Chudasama"
+    },
+    {
+      "id": "6756",
+      "batchId": "2",
+      "domain": "Frontend",
+      "mentor": "Bhavik Gajdhar",
+      "domainOwner": "false",
+      "email": "bhavikgajdhar@1rivet.com"
+    },
+    {
+      "id": "e169",
+      "batchId": "2",
+      "domain": "Bussiness Analyst",
+      "mentor": "Mahesh Prasad",
+      "domainOwner": "false",
+      "email": "mahesh.prasad@1rivet.com"
+    },
+    {
+      "id": "5bd7",
+      "batchId": "4",
+      "domain": "Backend",
+      "mentor": "undefined undefined",
+      "domainOwner": "false",
+      "email": "jinal.tandel@1rivet.com"
+    },
+    {
+      "id": "f470",
+      "batchId": "1",
+      "domain": "Bussiness Analyst",
+      "mentor": "Mahesh Prasad",
+      "domainOwner": "false",
+      "email": "mahesh.prasad@1rivet.com"
+    },
+    {
+      "id": "8d6e",
+      "batchId": "1",
+      "domain": "Mobile",
+      "mentor": "Nidhiii Shah",
+      "domainOwner": "false",
+      "email": "nidhi@1rivet.com"
+    }
+  ],
+  "batchRoadmap": [
+    {
+      "batchId": "1",
+      "topic": "Database Concepts",
+      "domain": "Data",
+      "mentor": "Ravi Sing",
+      "day": 4,
+      "roadmapId": "da7d",
+      "status": "",
+      "subTopics": [
+        {
+          "id": "1rlhzg",
+          "status": "Not Started",
+          "title": "Open source databases",
+          "subtopics": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
+          "duration": "15m",
+          "topicid": "klnxrlqbp",
+          "date": null,
+          "day": 1
+        },
+        {
+          "id": "6kv7pf",
+          "status": "Not Started",
+          "title": "Relational",
+          "subtopics": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt tempore ",
+          "duration": "1hr",
+          "topicid": "jrkkwcqwmns",
+          "date": null,
+          "day": 1
+        },
+        {
+          "id": "smnab3",
+          "status": "Not Started",
+          "title": "NoSQL",
+          "subtopics": "Lorem Ipsum Dummy text added here for testing testing testing",
+          "duration": "1hr",
+          "topicid": "mzmcqy",
+          "date": null,
+          "day": 2
+        },
+        {
+          "id": "1zxhiy",
+          "status": "Not Started",
+          "title": "Centralization database",
+          "subtopics": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "15m",
+          "topicid": "ykmeysvp",
+          "date": null,
+          "day": 3
+        },
+        {
+          "id": "wut06a",
+          "status": "Not Started",
+          "title": "Cloud",
+          "subtopics": "Lorem ipsum dolor sit, adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "30m",
+          "topicid": "cpnitbhkx",
+          "date": null,
+          "day": 3
+        }
+      ],
+      "id": "b219"
+    },
+    {
+      "batchId": "1",
+      "topic": "Advanced Javascript",
+      "domain": "Backend",
+      "mentor": "Yaseen  Agwan",
+      "day": 3,
+      "roadmapId": "1",
+      "status": "In Progress",
+      "subTopics": [
+        {
+          "id": "gvyuxf",
+          "status": "Completed",
+          "title": "Error Handling",
+          "subtopics": "Ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "30m",
+          "topicid": "tlmgqlcl",
+          "date": "2024-05-23T08:08:36.205Z",
+          "day": 3
+        },
+        {
+          "id": "0599py",
+          "status": "Completed",
+          "title": "Destructuring",
+          "subtopics": "Exercitationem facere aliquam qui debitis odio reiciendis saepe",
+          "duration": "1hr",
+          "topicid": "ikregwlkg",
+          "date": "2024-05-23T09:19:12.441Z",
+          "day": 3
+        },
+        {
+          "id": "ira1ve",
+          "status": "In Progress",
+          "title": "dfghrth",
+          "subtopics": "grtg",
+          "duration": "15m",
+          "topicid": "pyjfsgcl",
+          "date": "2024-05-23T09:18:45.475Z",
+          "day": 4
+        }
+      ],
+      "id": "2db4"
+    }
+  ],
+  "mentors": [
+    {
+      "id": "1",
+      "firstName": "Vinay",
+      "lastName": "Chudasama",
+      "email": "vinaychudasama@1rivet.com",
+      "domain": "Frontend",
+      "phone": "9876543210",
+      "designation": "Associate L1"
+    },
+    {
+      "id": "2",
+      "firstName": "Bhavik",
+      "lastName": "Gajdhar",
+      "email": "bhavikgajdhar@1rivet.com",
+      "domain": "Frontend",
+      "phone": "9876543210",
+      "designation": "Associate L1"
+    },
+    {
+      "id": "3",
+      "firstName": "Vishwani",
+      "lastName": "Patel",
+      "email": "vishwani@1rivet.com",
+      "domain": "Frontend",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "firstName": "Ravi",
+      "lastName": "Sing",
+      "email": "ravising@1rivet.com",
+      "domain": "Data",
+      "id": "9002",
+      "phone": "9876543210",
+      "designation": "Associate Trainee"
+    },
+    {
+      "firstName": "Nidhiii",
+      "lastname": "",
+      "email": "nidhi@1rivet.com",
+      "domain": "Mobile",
+      "phone": "9876543210",
+      "designation": "Associate Trainee",
+      "lastName": "Shah",
+      "id": "d25f"
+    },
+    {
+      "firstName": "Amresh",
+      "lastName": "Prasad",
+      "email": "amresh.prasad@1rivet.com",
+      "domain": "Mobile",
+      "phone": "9876543120",
+      "designation": "Associate L1",
+      "id": "4OXTzG4"
+    },
+    {
+      "firstName": "Mahesh",
+      "lastName": "Prasad",
+      "email": "mahesh.prasad@1rivet.com",
+      "domain": "Bussiness Analyst",
+      "phone": "9876543120",
+      "designation": "Associate L1",
+      "id": "4OXTyK9"
+    },
+    {
+      "id": "069f",
+      "firstName": "mahesh",
+      "lastName": "patel",
+      "emailId": "vinayvhc38@gmail.com",
+      "domain": "Bussiness Analyst",
+      "phone": "9923232459",
+      "designation": "Senior Associate L2"
+    },
+    {
+      "id": "4e93",
+      "firstName": "Yaseen ",
+      "lastName": "Agwan",
+      "emailId": "yaseen.agwan@gmail.com",
+      "domain": "Backend",
+      "phone": "8974561837",
+      "designation": "Associate L2"
+    },
+    {
+      "firstName": "Sharad",
+      "lastName": "Ahuja",
+      "emailId": "ahujasharad2@gmail.com",
+      "domain": "Backend",
+      "phone": "7485963871",
+      "designation": "Associate L1",
+      "id": "d0b8"
+    },
+    {
+      "id": "405f",
+      "firstName": "Twisha",
+      "lastName": "Shah",
+      "emailId": "shast@1rivet.com",
+      "domain": "Backend",
+      "phone": "8974569851",
+      "designation": "Associate Trainee"
+    },
+    {
+      "id": "9d17",
+      "firstName": "Zeel",
+      "lastName": "Panchal",
+      "emailId": "zeel.panchal@1rivet.com",
+      "domain": "Backend",
+      "phone": "9845896544",
+      "designation": "Associate Trainee"
+    },
+    {
+      "id": "0c0d",
+      "firstName": "Yasin",
+      "lastName": "Hirani",
+      "emailId": "yasin.hirani@1rivet.com",
+      "domain": "Data",
+      "phone": "9923232459",
+      "designation": "Associate L2"
+    },
+    {
+      "id": "e852"
+    },
+    {
+      "id": "cb73"
+    }
+  ],
+  "domain": [
+    {
+      "id": "1",
+      "value": "Frontend"
+    },
+    {
+      "id": "2",
+      "value": "Backend"
+    },
+    {
+      "id": "3",
+      "value": "Data"
+    },
+    {
+      "id": "4",
+      "value": "QA"
+    },
+    {
+      "id": "5",
+      "value": "Mobile"
+    },
+    {
+      "id": "6",
+      "value": "Human Resources"
+    },
+    {
+      "id": "7",
+      "value": "Bussiness Analyst"
+    }
+  ],
+  "designation": [
+    {
+      "id": "1",
+      "value": "Senior Manager"
+    },
+    {
+      "id": "2",
+      "value": "Manager"
+    },
+    {
+      "id": "3",
+      "value": "Senior Associate L2"
+    },
+    {
+      "id": "4",
+      "value": "Senior Associate L1"
+    },
+    {
+      "id": "5",
+      "value": "Associate L2"
+    },
+    {
+      "id": "6",
+      "value": "Associate L1"
+    },
+    {
+      "id": "7",
+      "value": "Associate Trainee"
+    }
+  ]
+}
