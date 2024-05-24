@@ -9,13 +9,13 @@ import "@mantine/dates/styles.css";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store/store.ts";
-import { resolver } from "./core/utility/constant/core.constant.ts";
+import { resolver, theme } from "./core/utility/constant/core.constant.ts";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
-        <MantineProvider cssVariablesResolver={resolver}>
+        <MantineProvider theme={theme} cssVariablesResolver={resolver}>
           <App />
         </MantineProvider>
       </Provider>

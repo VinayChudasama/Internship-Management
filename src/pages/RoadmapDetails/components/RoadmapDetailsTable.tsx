@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { ReactNode, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useGetRoadMapDetailsQuery } from "../utility/services/roadmapdetails.service";
@@ -24,7 +25,6 @@ const RoadmapDetailsTable = () => {
     const rows: ReactNode[] = [];
     records.forEach((user) => {
       const rowspan = user.topics.length;
-
       user.topics.forEach((topic, topicIndex) => {
         rows.push(
           <Table.Tr key={`${user.id}_${topicIndex}`}>
@@ -48,7 +48,7 @@ const RoadmapDetailsTable = () => {
             <Table.Td className="subtopic-name">{topic.subtopic}</Table.Td>
             <Table.Td className="duration">{topic.duration}</Table.Td>
             <Table.Td>
-              <DropdownMenu id={topic.id} tabValue="roadmapDetails" />
+              <DropdownMenu id={user.id} tabValue="roadmapDetails" />
             </Table.Td>
           </Table.Tr>
         );

@@ -6,6 +6,7 @@ import Roadmap from "./pages/Roadmap/Roadmap";
 import Tracker from "./pages/Tracker/Tracker";
 import RoadmapForm from "./pages/Roadmap/component/RoadmapForm";
 import RoadmapDetails from "./pages/RoadmapDetails/RoadmapDetails";
+import RoadmapDetailsForm from "./pages/RoadmapDetails/components/RoadmapDetailsForm";
 
 export default function Routing() {
   return (
@@ -18,6 +19,14 @@ export default function Routing() {
       <Route path={App_Routes.ROADMAP_CREATE} element={<RoadmapForm />} />
       <Route path={App_Routes.ROADMAP_EDIT} element={<RoadmapForm />} />
       <Route path={App_Routes.ROADMAP_DETAILS} element={<RoadmapDetails />} />
+      <Route
+        path={App_Routes.ROADMAP_DETAILS_CREATE}
+        element={<RoadmapDetailsForm />}
+      />
+      <Route
+        path={App_Routes.ROADMAP_DETAILS_EDIT}
+        element={<RoadmapDetailsForm />}
+      />
 
       <Route path={App_Routes.TRACKER} element={<Tracker />} />
     </Routes>

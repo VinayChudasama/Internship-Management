@@ -24,9 +24,8 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
     navigate("edit/" + id);
   };
 
-  // delete mentor details from list
+  // Handle Delete
   function handleDelete() {
-    //    id, delete path
     if (tabValue == "roadmap") {
       deleteRoadmap(id);
     } else if (tabValue == "roadmapDetails") {

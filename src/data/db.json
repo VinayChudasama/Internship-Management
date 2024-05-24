@@ -47,6 +47,12 @@
       "name": "ES6 Concepts",
       "domain": "Backend",
       "totalDays": 4
+    },
+    {
+      "id": "980lux",
+      "name": "Demo ",
+      "domain": "Data",
+      "totalDays": 0
     }
   ],
   "roadmapDetails": [
@@ -565,6 +571,45 @@
           "topicName": "2",
           "subtopic": "vdsv",
           "duration": "30m"
+        }
+      ]
+    },
+    {
+      "id": "0g2p1i",
+      "roadmapId": "aeea",
+      "day": "Day 5",
+      "topics": [
+        {
+          "id": "avlo66",
+          "topicName": "Test",
+          "subtopic": "Testing Add call",
+          "duration": "30m"
+        }
+      ]
+    },
+    {
+      "id": "d3358m",
+      "roadmapId": "980lux",
+      "day": "Day 1",
+      "topics": [
+        {
+          "id": "77szq6",
+          "topicName": "eefe",
+          "subtopic": "gewwegweg",
+          "duration": "15m"
+        }
+      ]
+    },
+    {
+      "id": "s5l698",
+      "roadmapId": "980lux",
+      "day": "Day 2",
+      "topics": [
+        {
+          "id": "1s1ui1",
+          "topicName": "sdgdssdgs",
+          "subtopic": "gsgsdgsdgds",
+          "duration": "15m"
         }
       ]
     }

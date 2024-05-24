@@ -41,9 +41,14 @@ export default function Header() {
               <Avatar
                 // src={user.picture}
                 // alt={user.nickname}
-                radius="sm"
+
                 size={34}
-              />
+                variant="filled"
+                radius="sm"
+                color="rgba(237, 123, 123, 1)"
+              >
+                VC
+              </Avatar>
             </Group>
           </UnstyledButton>
         </Menu.Target>
@@ -53,9 +58,13 @@ export default function Header() {
               <Avatar
                 // src={user.picture}
                 // alt={user.nickname}
-                radius="sm"
                 size={40}
-              />
+                variant="filled"
+                radius="sm"
+                color="rgba(237, 123, 123, 1)"
+              >
+                VC
+              </Avatar>
               <Box ml="md">
                 <Text
                   fw={500}

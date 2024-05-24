@@ -21,7 +21,7 @@ const RoadmapDetails = () => {
                 Roadmap Details
               </Title>
             </div>
-            <Link to="add/new-details">
+            <Link to="add/new">
               <Button leftSection={<IconPlus size={14} />}>
                 Add Roadmap Details
               </Button>
