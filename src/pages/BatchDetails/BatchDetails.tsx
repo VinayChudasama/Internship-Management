@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const BatchDetails = () => {
-  return (
-    <div>BatchDetails</div>
-  )
-}
+  return <div>BatchDetails</div>;
+};
 
-export default BatchDetails
+export default BatchDetails;

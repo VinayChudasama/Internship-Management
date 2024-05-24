@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 import { useGetDomainQuery } from "../../../shared/utility/services/Shared.service";
 import {
@@ -55,7 +56,6 @@ const useRoadmapForm = () => {
     if (roadmapDetails) {
       form.setValues(roadmapDetails);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [roadmapDetails]);
 
   useEffect(() => {

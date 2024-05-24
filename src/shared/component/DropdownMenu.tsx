@@ -5,6 +5,7 @@ import { Menu, UnstyledButton, rem } from "@mantine/core";
 import { IconDotsVertical, IconPencil, IconTrash } from "@tabler/icons-react";
 import ConfirmationModal from "./ConfirmationModal";
 import { useDeleteRoadmapDetailsMutation } from "../../pages/RoadmapDetails/utility/services/roadmapdetails.service";
+import { useDeleteBatchListMutation } from "../../pages/InternBatch/utility/services/internBatch.service";
 interface IProps {
   id: string;
   tabValue: string;
@@ -13,6 +14,7 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
   const navigate = useNavigate();
   const [deleteRoadmap] = useDeleteRoadMapMutation();
   const [deleteRoadmapDetails] = useDeleteRoadmapDetailsMutation();
+  const [deleteInternBatch] = useDeleteBatchListMutation();
   console.log(id, tabValue);
 
   // manage confirm box
@@ -30,6 +32,8 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
       deleteRoadmap(id);
     } else if (tabValue == "roadmapDetails") {
       deleteRoadmapDetails(id);
+    } else if (tabValue == "internBatch") {
+      deleteInternBatch(id);
     }
     setOpen(false);
   }

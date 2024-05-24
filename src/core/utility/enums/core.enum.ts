@@ -1,5 +1,8 @@
 enum App_Routes {
   INTERN_BATCH = "/intern-batch",
+  INTERN_BATCH_CREATE = "/intern-batch/add/new",
+  INTERN_BATCH_EDIT = "/intern-batch/edit/:batchId",
+  BATCH_DETAIL = "/batch-details",
   MENTOR = "/mentor",
   ROADMAP = "/roadmap",
   ROADMAP_CREATE = "/roadmap/add/new",
