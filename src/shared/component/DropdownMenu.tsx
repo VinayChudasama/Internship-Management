@@ -4,6 +4,7 @@ import { useDeleteRoadMapMutation } from "../../pages/Roadmap/utility/services/r
 import { Menu, UnstyledButton, rem } from "@mantine/core";
 import { IconDotsVertical, IconPencil, IconTrash } from "@tabler/icons-react";
 import ConfirmationModal from "./ConfirmationModal";
+import { useDeleteRoadmapDetailsMutation } from "../../pages/RoadmapDetails/utility/services/roadmapdetails.service";
 interface IProps {
   id: string;
   tabValue: string;
@@ -11,6 +12,7 @@ interface IProps {
 const DropdownMenu = ({ id, tabValue }: IProps) => {
   const navigate = useNavigate();
   const [deleteRoadmap] = useDeleteRoadMapMutation();
+  const [deleteRoadmapDetails] = useDeleteRoadmapDetailsMutation();
   console.log(id, tabValue);
 
   // manage confirm box
@@ -26,9 +28,9 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
   function handleDelete() {
     //    id, delete path
     if (tabValue == "roadmap") {
-      // Delete Record from List
       deleteRoadmap(id);
-      console.log(id);
+    } else if (tabValue == "roadmapDetails") {
+      deleteRoadmapDetails(id);
     }
     setOpen(false);
   }

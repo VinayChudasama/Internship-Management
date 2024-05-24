@@ -20,7 +20,7 @@ const useRoadmapForm = () => {
   const [domains, setDomains] = useState<string[]>([]);
   const [addRoadMap] = useAddRoadMapMutation();
   const [updateRoadmap] = useUpdateRoadmapMutation();
-  const { data: roadmapDetails } = useGetRoadmapByIdQuery(id);
+  const { data: roadmapDetails } = useGetRoadmapByIdQuery(id!);
 
   // Form Values
   const form = useForm({
@@ -52,7 +52,10 @@ const useRoadmapForm = () => {
   }
 
   useEffect(() => {
-    form.setValues(roadmapDetails);
+    if (roadmapDetails) {
+      form.setValues(roadmapDetails);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [roadmapDetails]);
 
   useEffect(() => {

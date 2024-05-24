@@ -9,7 +9,7 @@ export const roadmapApi = createApi({
   tagTypes: ["RoadmapList"],
   endpoints: (builder) => ({
     //GET Roadmap's
-    getRoadMapData: builder.query<IRoadmapData, void>({
+    getRoadMapData: builder.query<IRoadmapData[], void>({
       query: () => ({ url: "/roadmap", method: "GET" }),
       providesTags: ["RoadmapList"],
     }),

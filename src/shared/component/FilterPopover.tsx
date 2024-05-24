@@ -12,6 +12,7 @@ import {
 } from "@mantine/core";
 import { IconFilter } from "@tabler/icons-react";
 import { useGetDomainQuery } from "../utility/services/Shared.service";
+import { IDomains } from "../utility/models/Shared.model";
 
 const FilterPopover = () => {
   const [opened, setOpened] = useState<boolean>(false);
@@ -57,7 +58,7 @@ const FilterPopover = () => {
           >
             {/* Checkboxes to display filtering options */}
             {domains &&
-              domains.map((domain) => (
+              domains.map((domain: IDomains) => (
                 <Checkbox
                   className="filter-checkbox cursorPointer"
                   key={domain.id}

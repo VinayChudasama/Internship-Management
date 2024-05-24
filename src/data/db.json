@@ -47,12 +47,6 @@
       "name": "ES6 Concepts",
       "domain": "Backend",
       "totalDays": 4
-    },
-    {
-      "name": "new test 2",
-      "domain": "Frontend",
-      "totalDays": 0,
-      "id": "5332"
     }
   ],
   "roadmapDetails": [
@@ -1208,31 +1202,31 @@
   "designation": [
     {
       "id": "1",
-      "name": "Senior Manager"
+      "value": "Senior Manager"
     },
     {
       "id": "2",
-      "name": "Manager"
+      "value": "Manager"
     },
     {
       "id": "3",
-      "name": "Senior Associate L2"
+      "value": "Senior Associate L2"
     },
     {
       "id": "4",
-      "name": "Senior Associate L1"
+      "value": "Senior Associate L1"
     },
     {
       "id": "5",
-      "name": "Associate L2"
+      "value": "Associate L2"
     },
     {
       "id": "6",
-      "name": "Associate L1"
+      "value": "Associate L1"
     },
     {
       "id": "7",
-      "name": "Associate Trainee"
+      "value": "Associate Trainee"
     }
   ]
 }
