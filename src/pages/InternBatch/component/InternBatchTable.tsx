@@ -47,7 +47,7 @@ const InternBatchTable = () => {
                         <Link
                           style={{ textTransform: "uppercase" }}
                           className="text-link"
-                          to="/batch-details"
+                          to={`/batch-details/${tabData.id}/details`}
                         >
                           {tabData.batchname}
                         </Link>
