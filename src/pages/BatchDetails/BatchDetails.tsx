@@ -22,8 +22,6 @@ const BatchDetails = () => {
     { title: `Jan 2024`, href: "#" },
   ];
   const handleTabChange = (newTab: string | null) => {
-    console.log(newTab);
-
     setActiveTab(newTab);
     navigate(`/batch-details/${batchId}/${newTab}`);
   };

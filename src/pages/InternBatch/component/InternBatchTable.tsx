@@ -16,7 +16,6 @@ const InternBatchTable = () => {
       setBatchListData(BatchData);
     }
   }, [BatchData]);
-  console.log(batchListData, BatchData);
 
   return (
     <div className="content-wrapper">

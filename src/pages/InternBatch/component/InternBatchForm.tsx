@@ -33,6 +33,7 @@ import {
 const InternBatchForm = () => {
   const { batchId } = useParams();
   const navigate = useNavigate();
+
   const [updateInternsBatch] = useUpdateBatchListMutation();
   const [addInternsBatch] = useAddBatchListMutation();
   const { data: formData } = useGetBatchListByIdQuery(batchId!, {

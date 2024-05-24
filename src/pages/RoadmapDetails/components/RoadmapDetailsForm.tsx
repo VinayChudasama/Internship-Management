@@ -1,6 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { ReactNode } from "react";
-import useRoadmapDetails from "../hooks/useRoadmapDetails";
+import { ReactNode, useEffect, useState } from "react";
 import {
   Box,
   Button,
@@ -18,19 +17,106 @@ import {
   rem,
 } from "@mantine/core";
 import { IconChevronDown, IconPlus, IconX } from "@tabler/icons-react";
-import { duration } from "../utility/constants/roadmapDetails.constant";
+import {
+  duration,
+  initialFormValues,
+} from "../utility/constants/roadmapDetails.constant";
 import { Breadcrumb } from "../../../shared/component/Breadcrumb";
+import { useNavigate, useParams } from "react-router-dom";
+import {
+  useAddRoadMapDetailsMutation,
+  useGetRoadMapDetailsQuery,
+  useGetRoadmapDetailsByIdQuery,
+  useUpdateRoadmapDetailsMutation,
+} from "../utility/services/roadmapdetails.service";
+import { useForm, yupResolver } from "@mantine/form";
+import { ValidationSchema } from "../utility/validations/roadmapDetails.validations";
+import { IRoadmapDetails } from "../utility/models/roadmapdetails.model";
 
 const RoadmapDetailsForm = () => {
-  const {
-    form,
-    handleFormSubmit,
-    title,
-    btnText,
-    handleCancel,
-    Breadcrumbitems,
-    addComponent,
-  } = useRoadmapDetails();
+  const navigate = useNavigate();
+  const { roadmapId, id } = useParams();
+  const btnText: string = id ? "Update" : "Add";
+  const [day, setDay] = useState<number>(1);
+  const title: string = id
+    ? "Update Roadmap Detail"
+    : `Add Roadmap Detail-Day ${day}`;
+
+  const { data: roadmapDetailData } = useGetRoadMapDetailsQuery();
+  const [updateRoadmapDetails] = useUpdateRoadmapDetailsMutation();
+  const [addRoadMapDetails] = useAddRoadMapDetailsMutation();
+  const { data: formData } = useGetRoadmapDetailsByIdQuery(id!, { skip: !id });
+
+  //   Form values
+  const form = useForm({
+    initialValues: {
+      ...initialFormValues(roadmapId!, day),
+    },
+    validate: yupResolver(ValidationSchema),
+  });
+  const isFormValidate = form.isValid();
+
+  // Form Submit button
+  const handleFormSubmit = async (values: IRoadmapDetails) => {
+    try {
+      if (id) {
+        await updateRoadmapDetails({ ...values });
+      } else {
+        values.day = `Day ${day}`;
+        await addRoadMapDetails(values);
+      }
+
+      navigate("/roadmap-details/" + roadmapId);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+  };
+
+  // Breadcrumbs Data
+  const Breadcrumbitems = [
+    { title: "Internship", href: "#" },
+    { title: "Roadmap", href: "/roadmap" },
+    { title: "Roadmap Details", href: "/roadmap" },
+    { title: `${btnText} Roadmap Details`, href: "" },
+  ];
+
+  // Handle Cancel
+  function handleCancel() {
+    navigate("/roadmap-details/" + roadmapId);
+  }
+
+  // Add Dynamic Component to form on click of Add Topic Button
+  function addComponent() {
+    form.insertListItem("topics", {
+      id: Math.random()
+        .toString(36)
+        .replace(/[^a-z]+/g, ""),
+      topicName: "",
+      subtopic: "",
+      duration: "",
+    });
+  }
+  // To set Day value
+  useEffect(() => {
+    if (roadmapDetailData) {
+      const length: number = roadmapDetailData.filter(
+        (data) => data.roadmapId == roadmapId
+      ).length;
+      setDay(length + 1);
+    }
+  }, [roadmapDetailData]);
+
+  // Populate the form with fetched details
+  useEffect(() => {
+    if (formData && id) {
+      const topicsCopy = formData.topics.map((topic) => {
+        return {
+          ...topic,
+        };
+      });
+      form.setValues({ ...formData, topics: topicsCopy });
+    }
+  }, [formData]);
 
   // Form Field UI for Dynamic Form
   const formFields: ReactNode[] = form.values.topics.map((_, index) => {
@@ -69,7 +155,6 @@ const RoadmapDetailsForm = () => {
               label="Duration"
               checkIconPosition="right"
               placeholder="Select Duration"
-              //   value={selectedValue}
               data={duration}
               rightSection={
                 <IconChevronDown style={{ width: rem(16), height: rem(16) }} />
@@ -85,12 +170,10 @@ const RoadmapDetailsForm = () => {
             {...form.getInputProps(`topics.${index}.subtopic`)}
           />
         </Box>
-        {/* <Divider my="xs" /> */}
       </Box>
     );
   });
 
-  console.log(form.errors);
   return (
     <Flex direction="column" className="content-wrapper">
       <Paper className="sub-header-paper">
@@ -136,7 +219,9 @@ const RoadmapDetailsForm = () => {
                     >
                       Cancel
                     </Button>
-                    <Button type="submit">{btnText}</Button>
+                    <Button disabled={!isFormValidate} type="submit">
+                      {btnText}
+                    </Button>
                   </Group>
                 </form>
               </Grid.Col>
