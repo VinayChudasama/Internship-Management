@@ -1,17 +1,15 @@
+import RoadmapDetailsTable from "./components/RoadmapDetailsTable";
 import { Button, Container, Flex, Paper, Title } from "@mantine/core";
+import { Breadcrumb } from "../../shared/component/Breadcrumb";
 import { Link } from "react-router-dom";
 import { IconPlus } from "@tabler/icons-react";
-import { Breadcrumb } from "../../shared/component/Breadcrumb";
-import Searchbox from "../../shared/component/Searchbox";
-import FilterPopover from "../../shared/component/FilterPopover";
-import RoadmapList from "./component/RoadmapList";
 
-const Roadmap = () => {
+const RoadmapDetails = () => {
   const Breadcrumbitems = [
     { title: "Internship", href: "#" },
-    { title: "Roadmap", href: "#" },
+    { title: "Roadmap", href: "/roadmap" },
+    { title: "Roadmap Details", href: "#" },
   ];
-
   return (
     <Flex direction="column" className="content-wrapper">
       <Paper className="sub-header-paper">
@@ -20,28 +18,26 @@ const Roadmap = () => {
             <div>
               <Breadcrumb data={Breadcrumbitems} />
               <Title order={4} mt={5}>
-                Roadmap
+                Roadmap Details
               </Title>
             </div>
-            <Flex gap="sm">
-              <Searchbox placeholder="Roadmaps" />
-              <FilterPopover />
-              <Link to="add/new">
-                <Button leftSection={<IconPlus size={14} />}>
-                  Add New Folder
-                </Button>
-              </Link>
-            </Flex>
+            <Link to="add/new">
+              <Button leftSection={<IconPlus size={14} />}>
+                Add Roadmap Details
+              </Button>
+            </Link>
           </Flex>
         </Container>
       </Paper>
-      <Paper pt={16} className="container-bg">
+      <Paper className="container-bg">
         <Container className="container-fluid">
-          <RoadmapList />
+          <div className="table-container">
+            <RoadmapDetailsTable />
+          </div>
         </Container>
       </Paper>
     </Flex>
   );
 };
 
-export default Roadmap;
+export default RoadmapDetails;

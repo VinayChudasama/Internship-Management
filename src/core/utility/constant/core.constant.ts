@@ -1,21 +1,23 @@
 import { CSSVariablesResolver, createTheme } from "@mantine/core";
-
+import { variantColorResolver } from "../../../shared/component/StatusBadge";
 export const theme = createTheme({
+  variantColorResolver,
   primaryColor: "primary",
   primaryShade: 6,
   fontFamily: "Inter, sans-serif",
+
   colors: {
     primary: [
-      "#e1faff",
-      "#cdf0ff",
-      "#9fddfb",
-      "#6ccaf7",
-      "#44baf4",
-      "#2bb0f2",
-      "#16abf2",
-      "#0095d8",
-      "#0084c3",
-      "#0073ac",
+      "#00488a",
+      "#00488a",
+      "#00488a",
+      "#00488a",
+      "#00488a",
+      "#00488a",
+      "#00488a",
+      "#00488a",
+      "#00488a",
+      "#00488a",
     ],
   },
   cursorType: "pointer",
