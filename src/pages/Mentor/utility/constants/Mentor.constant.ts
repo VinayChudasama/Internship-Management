@@ -1,3 +1,5 @@
+import GenerateId from "../../../../shared/utility/helper/GenerateId";
+
 export const addMentorDetailsValidationMessages = {
   firstNameRequired: "FirstName is required",
   lastNameRequired: "LastName is required",
@@ -13,12 +15,11 @@ export const addMentorDetailsValidationRegex = {
   phoneNumberPattern: /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}$/,
 };
 export const initialMentorDetailsValues = {
-  id: "",
+  id: GenerateId(),
   firstName: "",
   lastName: "",
   email: "",
   domain: "",
   phone: "",
   designation: "",
-  mentor: "",
 };

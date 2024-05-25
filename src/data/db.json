@@ -1095,13 +1095,13 @@
       "designation": "Associate L1"
     },
     {
-      "id": "3",
       "firstName": "Vishwani",
       "lastName": "Patel",
-      "email": "vishwani@1rivet.com",
+      "email": "vishwani.patel@1rivet.com",
       "domain": "Frontend",
       "phone": "9876543210",
-      "designation": "Associate Trainee"
+      "designation": "Associate Trainee",
+      "id": "3"
     },
     {
       "firstName": "Ravi",
@@ -1144,7 +1144,7 @@
       "id": "069f",
       "firstName": "mahesh",
       "lastName": "patel",
-      "emailId": "vinayvhc38@gmail.com",
+      "email": "vinayvhc38@gmail.com",
       "domain": "Bussiness Analyst",
       "phone": "9923232459",
       "designation": "Senior Associate L2"
@@ -1153,7 +1153,7 @@
       "id": "4e93",
       "firstName": "Yaseen ",
       "lastName": "Agwan",
-      "emailId": "yaseen.agwan@gmail.com",
+      "email": "yaseen.agwan@gmail.com",
       "domain": "Backend",
       "phone": "8974561837",
       "designation": "Associate L2"
@@ -1161,7 +1161,7 @@
     {
       "firstName": "Sharad",
       "lastName": "Ahuja",
-      "emailId": "ahujasharad2@gmail.com",
+      "email": "ahujasharad2@gmail.com",
       "domain": "Backend",
       "phone": "7485963871",
       "designation": "Associate L1",
@@ -1171,7 +1171,7 @@
       "id": "405f",
       "firstName": "Twisha",
       "lastName": "Shah",
-      "emailId": "shast@1rivet.com",
+      "email": "shast@1rivet.com",
       "domain": "Backend",
       "phone": "8974569851",
       "designation": "Associate Trainee"
@@ -1180,7 +1180,7 @@
       "id": "9d17",
       "firstName": "Zeel",
       "lastName": "Panchal",
-      "emailId": "zeel.panchal@1rivet.com",
+      "email": "zeel.panchal@1rivet.com",
       "domain": "Backend",
       "phone": "9845896544",
       "designation": "Associate Trainee"
@@ -1189,16 +1189,10 @@
       "id": "0c0d",
       "firstName": "Yasin",
       "lastName": "Hirani",
-      "emailId": "yasin.hirani@1rivet.com",
+      "email": "yasin.hirani@1rivet.com",
       "domain": "Data",
       "phone": "9923232459",
       "designation": "Associate L2"
-    },
-    {
-      "id": "e852"
-    },
-    {
-      "id": "cb73"
     }
   ],
   "domain": [

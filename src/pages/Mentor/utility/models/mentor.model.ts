@@ -1,5 +1,5 @@
 //Modal for Mentor details
-export interface IMentor {
+export interface IMentorData {
   id: string;
   firstName: string;
   lastName: string;
@@ -7,6 +7,6 @@ export interface IMentor {
   domain: string;
   phone: string;
   designation: string;
-  mentor: string;
+  mentor?: string;
   domainOwner?: string;
 }

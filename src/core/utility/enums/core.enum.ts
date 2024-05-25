@@ -11,5 +11,7 @@ enum App_Routes {
   ROADMAP_DETAILS_CREATE = "/roadmap-details/:roadmapId/add/new",
   ROADMAP_DETAILS_EDIT = "/roadmap-details/:roadmapId/edit/:id",
   TRACKER = "/tracker",
+  MENTOR_CREATE = "/mentor/add/new",
+  MENTOR_EDIT = "/mentor/edit/:id",
 }
 export { App_Routes };

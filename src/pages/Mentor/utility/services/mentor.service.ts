@@ -1,5 +1,5 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
-import { IMentor } from "../models/mentor.model";
+import { IMentorData } from "../models/mentor.model";
 import { API_BASE_URL } from "../../../../environments/environment";
 import { axiosBaseQuery } from "../../../../shared/utility/services/axiosBaseQuery.service";
 
@@ -8,45 +8,37 @@ export const mentorApi = createApi({
   baseQuery: axiosBaseQuery({ baseUrl: API_BASE_URL }),
   tagTypes: ["MentorsList", "Domain", "Designation"],
   endpoints: (builder) => ({
-    getMentorData: builder.query<IMentor[], void>({
+    getMentorData: builder.query<IMentorData[], void>({
       query: () => ({ url: "/mentors", method: "GET" }),
       providesTags: ["MentorsList"],
     }),
-    getDomain: builder.query({
-      query: () => ({ url: "/domain", method: "GET" }),
-      providesTags: ["Domain"],
-    }),
-    getDesignation: builder.query({
-      query: () => ({ url: "/designation", method: "GET" }),
-      providesTags: ["Designation"],
-    }),
-    addMentor: builder.mutation({
-      query: (mentor) => ({
+    addMentor: builder.mutation<IMentorData, IMentorData>({
+      query: (mentorData: IMentorData) => ({
         url: "/mentors",
         method: "POST",
-        body: mentor,
+        data: mentorData,
       }),
       invalidatesTags: ["MentorsList"],
     }),
-    deleteMentorData: builder.mutation({
+    deleteMentor: builder.mutation<void, string>({
       query: (id: string) => ({
         url: `/mentors/${id}`,
         method: "DELETE",
       }),
       invalidatesTags: ["MentorsList"],
     }),
-    getMentorById: builder.query({
-      query: (id) => ({
+    getMentorById: builder.query<IMentorData, string>({
+      query: (id: string) => ({
         url: `/mentors/${id}`,
         method: "GET",
       }),
       providesTags: ["MentorsList"],
     }),
-    updateMentor: builder.mutation({
-      query: ({ id, ...mentorDetail }) => ({
+    updateMentor: builder.mutation<IMentorData, IMentorData>({
+      query: ({ id, ...mentorData }) => ({
         url: `/mentors/${id}`,
         method: "PUT",
-        body: mentorDetail,
+        data: mentorData,
       }),
       invalidatesTags: ["MentorsList"],
     }),
@@ -55,9 +47,7 @@ export const mentorApi = createApi({
 export const {
   useGetMentorDataQuery,
   useGetMentorByIdQuery,
-  useGetDomainQuery,
-  useGetDesignationQuery,
   useAddMentorMutation,
-  useDeleteMentorDataMutation,
+  useDeleteMentorMutation,
   useUpdateMentorMutation,
 } = mentorApi;

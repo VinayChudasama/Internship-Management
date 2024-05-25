@@ -6,6 +6,7 @@ import { IconDotsVertical, IconPencil, IconTrash } from "@tabler/icons-react";
 import ConfirmationModal from "./ConfirmationModal";
 import { useDeleteRoadmapDetailsMutation } from "../../pages/RoadmapDetails/utility/services/roadmapdetails.service";
 import { useDeleteBatchListMutation } from "../../pages/InternBatch/utility/services/internBatch.service";
+import { useDeleteMentorMutation } from "../../pages/Mentor/utility/services/mentor.service";
 interface IProps {
   id: string;
   tabValue: string;
@@ -15,7 +16,7 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
   const [deleteRoadmap] = useDeleteRoadMapMutation();
   const [deleteRoadmapDetails] = useDeleteRoadmapDetailsMutation();
   const [deleteInternBatch] = useDeleteBatchListMutation();
-
+  const [deleteMentor] = useDeleteMentorMutation();
   // manage confirm box
   const [open, setOpen] = useState<boolean>(false);
 
@@ -33,6 +34,8 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
       deleteRoadmapDetails(id);
     } else if (tabValue == "internBatch") {
       deleteInternBatch(id);
+    } else if (tabValue == "mentor") {
+      deleteMentor(id);
     }
     setOpen(false);
   }

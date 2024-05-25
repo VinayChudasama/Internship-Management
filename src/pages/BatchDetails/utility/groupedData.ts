@@ -1,12 +1,10 @@
-import { IMentor } from "../../Mentor/utility/models/mentor.model";
+import { IMentorData } from "../../Mentor/utility/models/mentor.model";
 
 export interface GroupedData {
   [domain: string]: any[];
 }
 // Group values by domain in ascending order
-export const groupedData = (records: IMentor[]): GroupedData => {
-  console.log("in group", records);
-
+export const groupedData = (records: IMentorData[]): GroupedData => {
   records.sort((a, b) => {
     if (a.domain < b.domain) {
       return -1;

@@ -2,7 +2,7 @@ import * as yup from "yup";
 import {
   addMentorDetailsValidationMessages,
   addMentorDetailsValidationRegex,
-} from "../constants/addMentorDetails.constant";
+} from "../constants/Mentor.constant";
 export const userProfileValidationSchema = yup.object({
   firstName: yup
     .string()

@@ -9,6 +9,7 @@ import RoadmapDetails from "./pages/RoadmapDetails/RoadmapDetails";
 import RoadmapDetailsForm from "./pages/RoadmapDetails/components/RoadmapDetailsForm";
 import InternBatchForm from "./pages/InternBatch/component/InternBatchForm";
 import BatchDetails from "./pages/BatchDetails/BatchDetails";
+import MentorForm from "./pages/Mentor/components/MentorForm";
 
 export default function Routing() {
   return (
@@ -25,7 +26,8 @@ export default function Routing() {
       />
       <Route path={App_Routes.BATCH_DETAIL} element={<BatchDetails />} />
       <Route path={App_Routes.MENTOR} element={<Mentor />} />
-
+      <Route path={App_Routes.MENTOR_CREATE} element={<MentorForm />} />
+      <Route path={App_Routes.MENTOR_EDIT} element={<MentorForm />} />
       <Route path={App_Routes.ROADMAP} element={<Roadmap />} />
       <Route path={App_Routes.ROADMAP_CREATE} element={<RoadmapForm />} />
       <Route path={App_Routes.ROADMAP_EDIT} element={<RoadmapForm />} />
