@@ -59,7 +59,11 @@ const MentorList = () => {
                     </Box>
                   </Group>
                   {/* Dropdown menu to perform edit/delete */}
-                  <DropdownMenu id={tabData.id} tabValue="mentor" />
+                  <DropdownMenu
+                    id={tabData.id}
+                    tabValue="mentor"
+                    toggleDrawer={() => {}}
+                  />
                 </Flex>
               </Card.Section>
               <Card.Section>

@@ -25,6 +25,7 @@ export default function Routing() {
         element={<InternBatchForm />}
       />
       <Route path={App_Routes.BATCH_DETAIL} element={<BatchDetails />} />
+      <Route path={App_Routes.BATCH_DETAIL_EDIT} element={<BatchDetails />} />
       <Route path={App_Routes.MENTOR} element={<Mentor />} />
       <Route path={App_Routes.MENTOR_CREATE} element={<MentorForm />} />
       <Route path={App_Routes.MENTOR_EDIT} element={<MentorForm />} />

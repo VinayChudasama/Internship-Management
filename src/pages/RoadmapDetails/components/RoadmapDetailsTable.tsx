@@ -48,7 +48,11 @@ const RoadmapDetailsTable = () => {
             <Table.Td className="subtopic-name">{topic.subtopic}</Table.Td>
             <Table.Td className="duration">{topic.duration}</Table.Td>
             <Table.Td>
-              <DropdownMenu id={user.id} tabValue="roadmapDetails" />
+              <DropdownMenu
+                id={user.id}
+                tabValue="roadmapDetails"
+                toggleDrawer={() => {}}
+              />
             </Table.Td>
           </Table.Tr>
         );

@@ -59,7 +59,7 @@ const RoadmapList = () => {
                       {tabData.domain}
                     </Text>
                   </Stack>
-                  <DropdownMenu id={tabData.id} tabValue="roadmap" />
+                  <DropdownMenu id={tabData.id} tabValue="roadmap" toggleDrawer={()=>{}} />
                 </Flex>
               </Card>
             </Grid.Col>

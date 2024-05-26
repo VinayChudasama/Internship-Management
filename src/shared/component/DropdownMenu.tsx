@@ -7,22 +7,25 @@ import ConfirmationModal from "./ConfirmationModal";
 import { useDeleteRoadmapDetailsMutation } from "../../pages/RoadmapDetails/utility/services/roadmapdetails.service";
 import { useDeleteBatchListMutation } from "../../pages/InternBatch/utility/services/internBatch.service";
 import { useDeleteMentorMutation } from "../../pages/Mentor/utility/services/mentor.service";
+import { useDeleteBatchMentorMutation } from "../../pages/BatchDetails/BatchMentors/utility/services/batchMentor.service";
 interface IProps {
   id: string;
   tabValue: string;
+  toggleDrawer: () => void;
 }
-const DropdownMenu = ({ id, tabValue }: IProps) => {
+const DropdownMenu = ({ id, tabValue, toggleDrawer }: IProps) => {
   const navigate = useNavigate();
   const [deleteRoadmap] = useDeleteRoadMapMutation();
   const [deleteRoadmapDetails] = useDeleteRoadmapDetailsMutation();
   const [deleteInternBatch] = useDeleteBatchListMutation();
   const [deleteMentor] = useDeleteMentorMutation();
+  const [deleteBatchMentor] = useDeleteBatchMentorMutation();
   // manage confirm box
   const [open, setOpen] = useState<boolean>(false);
 
   // On click of edit button open drawer and perform navigation
   const handleEditClick = () => {
-    // toggleDrawer();
+    toggleDrawer();
     navigate("edit/" + id);
   };
 
@@ -36,6 +39,8 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
       deleteInternBatch(id);
     } else if (tabValue == "mentor") {
       deleteMentor(id);
+    } else if (tabValue == "batchMentor") {
+      deleteBatchMentor(id);
     }
     setOpen(false);
   }

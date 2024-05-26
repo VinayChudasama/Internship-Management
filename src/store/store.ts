@@ -5,6 +5,7 @@ import { sharedApi } from "../shared/utility/services/Shared.service";
 import { roadmapDetailsApi } from "../pages/RoadmapDetails/utility/services/roadmapdetails.service";
 import { internBatchApi } from "../pages/InternBatch/utility/services/internBatch.service";
 import { mentorApi } from "../pages/Mentor/utility/services/mentor.service";
+import { batchMentorApi } from "../pages/BatchDetails/BatchMentors/utility/services/batchMentor.service";
 
 export const store = configureStore({
   reducer: {
@@ -13,6 +14,7 @@ export const store = configureStore({
     [roadmapDetailsApi.reducerPath]: roadmapDetailsApi.reducer,
     [internBatchApi.reducerPath]: internBatchApi.reducer,
     [mentorApi.reducerPath]: mentorApi.reducer,
+    [batchMentorApi.reducerPath]: batchMentorApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(
@@ -20,7 +22,8 @@ export const store = configureStore({
       sharedApi.middleware,
       roadmapDetailsApi.middleware,
       internBatchApi.middleware,
-      mentorApi.middleware
+      mentorApi.middleware,
+      batchMentorApi.middleware
     ),
 });
 type RootState = ReturnType<typeof store.getState>;

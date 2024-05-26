@@ -1,3 +1,7 @@
+export interface IMentor {
+  value: string;
+  label: string;
+}
 //Modal for Mentor details
 export interface IMentorData {
   id: string;
@@ -7,6 +11,7 @@ export interface IMentorData {
   domain: string;
   phone: string;
   designation: string;
-  mentor?: string;
-  domainOwner?: string;
+  mentor?: string | IMentor;
+  domainOwner?: string | boolean;
+  mentorId?: string;
 }
