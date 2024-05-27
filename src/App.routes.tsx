@@ -9,8 +9,11 @@ import RoadmapDetails from "./pages/RoadmapDetails/RoadmapDetails";
 import RoadmapDetailsForm from "./pages/RoadmapDetails/components/RoadmapDetailsForm";
 import InternBatchForm from "./pages/InternBatch/component/InternBatchForm";
 import BatchDetails from "./pages/BatchDetails/BatchDetails";
+import BatchRoadmapForm from "./pages/BatchDetails/BatchRoadmap/components/BatchRoadmapForm";
+import { useState } from "react";
 
 export default function Routing() {
+  const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
   return (
     <Routes>
       <Route path="/" />
@@ -22,6 +25,10 @@ export default function Routing() {
       <Route
         path={App_Routes.INTERN_BATCH_EDIT}
         element={<InternBatchForm />}
+      />
+      <Route
+        path={App_Routes.BATCH_ROADMAP_EDIT}
+        element={<BatchRoadmapForm closeDrawer={() => setDrawerOpen(false)} />}
       />
       <Route path={App_Routes.BATCH_DETAIL} element={<BatchDetails />} />
       <Route path={App_Routes.MENTOR} element={<Mentor />} />

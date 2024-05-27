@@ -6,22 +6,25 @@ import { IconDotsVertical, IconPencil, IconTrash } from "@tabler/icons-react";
 import ConfirmationModal from "./ConfirmationModal";
 import { useDeleteRoadmapDetailsMutation } from "../../pages/RoadmapDetails/utility/services/roadmapdetails.service";
 import { useDeleteBatchListMutation } from "../../pages/InternBatch/utility/services/internBatch.service";
+import { useDeleteBatchRoadmapMutation } from "../../pages/BatchDetails/BatchRoadmap/utility/services/batchroadmap.service";
 interface IProps {
   id: string;
   tabValue: string;
+  toggleDrawer?: () => void;
 }
-const DropdownMenu = ({ id, tabValue }: IProps) => {
+const DropdownMenu = ({ id, tabValue, toggleDrawer }: IProps) => {
   const navigate = useNavigate();
   const [deleteRoadmap] = useDeleteRoadMapMutation();
   const [deleteRoadmapDetails] = useDeleteRoadmapDetailsMutation();
   const [deleteInternBatch] = useDeleteBatchListMutation();
+  const [deleteBatchRoadmap] = useDeleteBatchRoadmapMutation();
 
   // manage confirm box
   const [open, setOpen] = useState<boolean>(false);
 
   // On click of edit button open drawer and perform navigation
   const handleEditClick = () => {
-    // toggleDrawer();
+    toggleDrawer;
     navigate("edit/" + id);
   };
 
@@ -33,7 +36,10 @@ const DropdownMenu = ({ id, tabValue }: IProps) => {
       deleteRoadmapDetails(id);
     } else if (tabValue == "internBatch") {
       deleteInternBatch(id);
+    } else if (tabValue == "batch-roadmap") {
+      deleteBatchRoadmap(id);
     }
+
     setOpen(false);
   }
 
